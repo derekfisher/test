@@ -12,7 +12,7 @@ $( document ).ready(function() {
                 XWinOrNot();
                 tie();
                 if(XWin===true){
-                    alert("Game Over! First Player Win!");
+                   // alert("Game Over! First Player Win!");
                     GameOver();
                 }
             }
@@ -23,7 +23,7 @@ $( document ).ready(function() {
                 tie();
                 ClickNum=0;
                 if(OWin===true){
-                    alert("Game Over! Second Player Win!");
+                   // alert("Game Over! Second Player Win!");
                     GameOver();
                 }
             }
@@ -81,7 +81,7 @@ $( document ).ready(function() {
             }
         }
         if(Clicked==9 && XWin===false && OWin===false){
-            alert("Game Over! Tie!");
+           // alert("Game Over! Tie!");
         }
     }
     
